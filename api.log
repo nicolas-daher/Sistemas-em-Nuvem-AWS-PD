@@ -1,0 +1,25 @@
+nohup: ignoring input
+Building...
+/home/ubuntu/MinhaApi/Models/AppDbContext.cs(6,9): warning CS8618: Non-nullable property 'Produtos' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/home/ubuntu/MinhaApi/MinhaApi.csproj]
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://0.0.0.0:5055
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: https://0.0.0.0:7217
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/ubuntu/MinhaApi/
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.12 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (64ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT p.id, p.nome, p.preco, p.quantidade
+      FROM produtos AS p
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.12 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT p.id, p.nome, p.preco, p.quantidade
+      FROM produtos AS p

@@ -1,0 +1,6 @@
+# Pastas de build
+[Bb]in/
+[Oo]bj/
+
+# Arquivos grandes
+amazon-cloudwatch-agent.deb
